@@ -54,7 +54,6 @@ https://github.com/namastedev/namaste-react
 - Functional Component  - New
     - A function which return a ReactElement/JSX code
     - {} using this we can add any javascript code
-
-    - {name}    = const Title = () => <h1> Namste React using JSX </h1>;
-    - {name()}  = const Title = () => <h1> Namste React using JSX </h1>;
-    - <name/>   = const Title = <h1> Namste React using JSX </h1>;
+    - {name}    = const Title = () => '<h1>Namste React using JSX </h1>'
+    - {name()}  = const Title = () => '<h1> Namste React using JSX </h1>'
+    - <name/>   = const Title = '<h1> Namste React using JSX </h1>'
