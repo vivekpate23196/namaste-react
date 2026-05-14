@@ -4,15 +4,16 @@ https://github.com/namastedev/namaste-react
 40 hrs
 5h daily - 8 days
 ---------------------------------------------------------------------------------------------------------------------------------
-=> Episide 1 : Inception
-
+# Basic
 - What is cdn react - React library hosted
 - What is crossorigin in script -
 
-- React.createElement - Create HTML Element
+- React.createElement - ReactElement-JS Object =>  HTML Element(render)
 - ReactDOM.createRoot - Create root for React
-
-=> Episide 2 : Igniting our app
+- Role of type attribute in script tag? What options can I use there?
+    type="text/javascript or no type => Javascript
+    type="module                     => Load athe script as a ES module and Allows import / export
+    type="application/javascript or no type => Same as text/javascript
 
 # NPM                  -  
 - npm install -D parcel
@@ -24,9 +25,9 @@ https://github.com/namastedev/namaste-react
 - browserlist          - Target browsers and Node.js versions for a project
 
 # Parcel
-- npm install parcel
-- npx parcel index.html
-- npx parcel build index.html
+- npm install parcel    
+- npx parcel index.html       - npm run start - We can add script in package.json
+- npx parcel build index.html - npm run build
 - Features    
     - Dev Build
     - Local Server
@@ -36,3 +37,24 @@ https://github.com/namastedev/namaste-react
     - File watching alogrithm
     - Error handling
     - Tree Shaking - remove un used
+
+# JSX 
+- JSX is not a HTML inside a JS
+- HTM like syntax
+- Use Camel case for add attribute
+- Babel - JavaScript/TypeScript compiler
+- SWC   - JavaScript/TypeScript compiler
+- Senitize the data
+
+
+# React Component
+- Class based Component - Old
+    A class which return a react component
+
+- Functional Component  - New
+    - A function which return a ReactElement/JSX code
+    - {} using this we can add any javascript code
+
+    - {name}    = const Title = () => <h1> Namste React using JSX </h1>;
+    - {name()}  = const Title = () => <h1> Namste React using JSX </h1>;
+    - <name/>   = const Title = <h1> Namste React using JSX </h1>;
